@@ -54,3 +54,5 @@ let seatAllotment : 'asile' | 'middle' | 'window';
 
 seatAllotment = 'middle';// cool
 // seatAllotment = 'crew'; // error : value can be only from above 3 values
+
+export {}
