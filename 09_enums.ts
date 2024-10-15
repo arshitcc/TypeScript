@@ -3,17 +3,17 @@ enum SeatChoice { // by-default it gives a numbering value
     middle,
     window
 }
-// enum SeatChoice { // by-default it gives a numbering value
-//     aisle = 10, // if given number-value to anyone, then by-default it gives number accordingly after
-//     middle,
-//     window
-// }
+enum SeatChoice1 { // by-default it gives a numbering value
+    aisle = 10, // if given number-value to anyone, then by-default it gives number accordingly after
+    middle,
+    window
+}
 
-// enum SeatChoice { // by-default it gives a numbering value
-//     aisle, 
-//     middle = '10', // if given string-value to anyone, then give value to all after-that
-//     window
-// }
+enum SeatChoice2 { // by-default it gives a numbering value
+    aisle, 
+    middle = '10', // if given string-value to anyone, then give value to all after-that
+    // window
+}
 
 const userSeat = SeatChoice.aisle; 
 
